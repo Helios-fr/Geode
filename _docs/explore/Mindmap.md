@@ -1,2 +1,2 @@
 ### Mindmap ([Goto Explore Index](./README.md))
-![Mindmap](../assets/Geode-Mindmap.png)
+![Mindmap](../.assets/images/Geode-Mindmap.png)
