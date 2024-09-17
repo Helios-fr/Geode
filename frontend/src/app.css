@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .btn {
-    text-transform: none;
-  }
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Verdana'), url(https://fonts.gstatic.com/s/verdana/v1/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
 }
