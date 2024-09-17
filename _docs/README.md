@@ -6,7 +6,7 @@ Here you can find all of the documentation and planning for this project.
 - [Design](./design/README.md)
 
 ### Plan
-Below is a comprehensive plan for the development of the geode project. It will be updated and maintained throughout the development process. The development process will bbe broken down into the following stages:
+Below is a comprehensive plan for the development of the geode project. It will be updated and maintained throughout the development process. The development process will be broken down into the following stages:
  - [ ] [Explore](./explore/README.md) - The initial phase of the project where the idea is explored and surface level research is conducted.
  - [ ] [Design](./design/README.md) - The design phase of the project where the UI/UX is explored and designed and the branding is established.
  - [ ] [Research](./research/README.md) - The research phase of the project where the technical requirements are established, and researched.
@@ -15,16 +15,16 @@ Below is a comprehensive plan for the development of the geode project. It will 
 
 #### Exploration
 The exploration phase of the project is the initial phase where the idea is explored and surface level research is conducted. This phase will be broken down into the following sub-stages:
- - [ ] [Idea](./explore/Idea.md) - The initial idea for the project is established.
- - [x] [Mindmap](./explore/Mindmap.md) - A mindmap is created to better understand the project and its requirements.
- - [ ] [Research](./explore/Research.md) - Surface level research is conducted to establish the feasibility of the project, and the expected tech stack is defined.
+ - [x] [Idea](./explore/Idea.md) - The initial idea for the project is established.
+ - [x] [Mind map](./explore/Mindmap.md) - A mind map is created to better understand the project and its requirements.
+ - [x] [Research](./explore/Research.md) - Surface level research is conducted to establish the feasibility of the project, and the expected tech stack is defined.
 
 #### Design
 The design phase of the project is where the UI/UX is explored and designed and the branding is established. This phase will be broken down into the following sub-stages:
  - [ ] [Branding](./design/Branding.md) - The branding of the project is established.
  - [ ] [UI Design](./design/UI-design.md) - The UI/UX of the project is explored and designed.
  - [ ] [Wireframes](./design/Wireframes.md) - Wireframes are created to establish the layout of the project.
- - [ ] [Mockups](./design/Mockups.md) - Mockups are created to establish the visual design of the project.
+ - [ ] [Mock-ups](./design/Mockups.md) - Mock-ups are created to establish the visual design of the project.
 
 #### Research
 The research phase of the project is where the technical requirements are established, and researched. This phase will be broken down into the following sub-stages:
