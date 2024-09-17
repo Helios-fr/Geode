@@ -14,7 +14,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	addr := "0.0.0.0:9001"
+	addr := "localhost:9001"
 
 	http.HandleFunc("/api/hello", hello)
 	log.Printf("Starting server on %s\n", addr)
