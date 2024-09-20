@@ -17,6 +17,21 @@ var (
 	mutex     = &sync.Mutex{}
 )
 
+func loadFileStore() {
+	// Reconstruct the file store from the uploads directory
+	files, err := os.ReadDir("uploads")
+	if err != nil {
+		fmt.Println("Error reading uploads directory:", err)
+		return
+	}
+
+	for _, file := range files {
+		fileID := file.Name()
+		filePath := filepath.Join("uploads", fileID)
+		fileStore[fileID] = filePath
+	}
+}
+
 func main() {
 	// Ensure the uploads directory exists
 	if err := os.MkdirAll("uploads", os.ModePerm); err != nil {
@@ -28,6 +43,7 @@ func main() {
 	http.HandleFunc("/download/", downloadHandler)
 
 	fmt.Println("Server started at :9002")
+	loadFileStore()
 	http.ListenAndServe("0.0.0.0:9002", nil)
 }
 
