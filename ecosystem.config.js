@@ -12,5 +12,11 @@ module.exports = {
         args: 'run server.go',
         cwd: './backend',  // Adjust the path to your Go backend
       },
+      {
+        name: 'storage',
+        script: 'go',
+        args: 'run storage.go',
+        cwd: './storage',  // Adjust the path to your Go storage
+      }
     ],
 };
