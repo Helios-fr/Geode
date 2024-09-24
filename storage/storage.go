@@ -44,7 +44,7 @@ func main() {
 
 	fmt.Println("Server started at :9002")
 	loadFileStore()
-	http.ListenAndServe("0.0.0.0:9002", nil)
+	http.ListenAndServe(":9002", nil)
 }
 
 func generateRandomID() (string, error) {
