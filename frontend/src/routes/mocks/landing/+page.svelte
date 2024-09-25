@@ -1,5 +1,6 @@
 <script>
     import Navbar_Desktop from './navbar_desktop.svelte';
+    import Navbar_Mobile from './navbar_mobile.svelte';
 </script>
 
 <!-- Screen One Desktop -->
@@ -11,9 +12,7 @@
 
 <!-- Screen One Mobile -->
 <div class="flex min-h-screen flex-col md:hidden" id="hero">
-    <nav class="flex items-center justify-between p-4 bg-primary">
-        Navbar Mobile
-    </nav>
+    <Navbar_Mobile />
 
     Screen One Mobile
 </div>
