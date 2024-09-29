@@ -1,5 +1,5 @@
 <script>
-	import logo from '$lib/assets/images/logo.png';
+	import logo from '$lib/assets/images/logo.svg';
 
 	export let Navbar_Desktop;
 </script>
